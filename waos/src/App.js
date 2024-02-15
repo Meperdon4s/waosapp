@@ -1,14 +1,15 @@
 
-import BarraMenu from './components/BarraMenu';
-import Base from './components/Base';
+import { BrowserRouter } from 'react-router-dom';
+import Rutas from './routes/Rutas';
 
 function App() {
   return (
-    <div className="App">
-      <BarraMenu/>
-      <Base/>
+    <BrowserRouter>
+    <div>
+      <Rutas/>
     
     </div>
+    </BrowserRouter>
   );
 }
 
