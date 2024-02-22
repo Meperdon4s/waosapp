@@ -3,26 +3,27 @@ import {Link} from 'react-router-dom';
 
 export default function LateralMenu() {
   return (
-    <div>
-      <ul class="nav nav-pills">
-      <ul class="nav flex-column">
+    <div class="p-3 w-25 mb-2 bg-info-subtle text-info-emphasis ">
+      
+      <ul class="nav flex-column" >
+      <button type="button" class="btn btn-info">
         <li class="nav-item">
-          <Link to="/Home">Pagina Principal</Link>
+          <Link class="nav-link" to="/Home">Pagina Principal</Link>
+        </li>
+        </button>
+        <li class="nav-item">
+          <Link class="nav-link" to="/Explorarcat">Explorar catergorias</Link>
         </li>
         <li class="nav-item">
-          <Link to="/Explorarcat">Explorar catergorias</Link>
+          <Link class="nav-link" to="/Usuarios">Usuarios</Link>
         </li>
         <li class="nav-item">
-          <Link to="/Usuarios">Usuarios</Link>
+          <Link class="nav-link" to="/Explorarcom">Explorar comunidades</Link>
         </li>
         <li class="nav-item">
-          <Link to="/Explorarcom">Explorar comunidades</Link>
-        </li>
-        <li class="nav-item">
-          <Link to="/Miscom">Mis comunidades</Link>
+          <Link class="nav-link" to="/Miscom">Mis comunidades</Link>
         </li>
   
-      </ul>
       </ul>
     </div>
   )
