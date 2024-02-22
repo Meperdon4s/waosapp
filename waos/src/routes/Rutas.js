@@ -16,6 +16,7 @@ function Rutas(){
                 <Route path="/Usuarios" element={<Usuarios/>}/>
                 <Route path="/Explorarcom" element={<ExplorarComunidades/>}/>
                 <Route path="/Miscom" element={<MisComunidades/>}/>
+                <Route path="/InicioSesion" element={<InicioSesion/>}
             </Routes>
         </Layout>
     )
