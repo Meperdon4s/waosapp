@@ -3,27 +3,36 @@ import {Link} from 'react-router-dom';
 
 export default function LateralMenu() {
   return (
-    <div>
-      <ul class="nav nav-pills">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <Link to="/Home">Pagina Principal</Link>
-        </li>
-        <li class="nav-item">
-          <Link to="/Explorarcat">Explorar catergorias</Link>
-        </li>
-        <li class="nav-item">
-          <Link to="/Usuarios">Usuarios</Link>
-        </li>
-        <li class="nav-item">
-          <Link to="/Explorarcom">Explorar comunidades</Link>
-        </li>
-        <li class="nav-item">
-          <Link to="/Miscom">Mis comunidades</Link>
-        </li>
-  
-      </ul>
-      </ul>
-    </div>
+    <div class='d-flex bd-highlight'>
+    <div class="p-2 h-100 bd-highlight">
+    
+    <div class='btn-group-vertical' role='group' aria-label='Vertical button group'>
+    <nav class="nav flex-column">
+      
+        <button type='button' class='btn btn-info'>
+          <Link class='nav-link' to="/Home">Pagina Principal</Link>
+        </button>
+        <button type='button' class='btn btn-info'>
+          <Link class='nav-link' to="/Explorarcat">Explorar catergorias</Link>
+        </button>
+        <button type='button' class='btn btn-info'>
+          <Link class='nav-link' to="/Usuarios">Usuarios</Link>
+        </button>
+        <button type='button' class='btn btn-info'>
+          <Link class='nav-link' to="/Explorarcom">Explorar comunidades</Link>
+        </button>
+        <button type='button' class='btn btn-info'>
+          <Link class='nav-link' to="/Miscom">Mis comunidades</Link>
+        </button>
+        
+
+        
+        </nav>
+      </div>
+      </div>
+      </div>
+      
+
+
   )
 }

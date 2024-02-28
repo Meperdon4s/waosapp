@@ -4,8 +4,8 @@ import LateralMenu from "../components/LateralMenu";
 
 function Layout({children}){
     return(
-        <div>
-            <div className = "container">
+        <div >
+            <div className = "section">
 
                 <BarraMenu/>
                 <LateralMenu/>
