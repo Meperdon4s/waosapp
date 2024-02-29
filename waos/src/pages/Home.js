@@ -5,7 +5,7 @@ import VistaInformacion from '../components/VistaInformacion';
 
 export default function Home() {
   return (
-    <div>
+    <div class='d-flex justify-content-start'>
       <VistaInformacion/>
     </div>
   )
