@@ -5,10 +5,11 @@ import LateralMenu from "../components/LateralMenu";
 function Layout({children}){
     return(
         <div >
-            <div className = "section">
+            <div className = "section" class="fixed-top">
 
                 <BarraMenu/>
                 <LateralMenu/>
+                
             </div>
             <div>
                 {children}
