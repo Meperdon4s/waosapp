@@ -6,16 +6,20 @@ import ExplorarCategorias from "../pages/ExplorarCategorias";
 import Usuarios from "../pages/Usuarios";
 import ExplorarComunidades from "../pages/ExplorarComunidades";
 import MisComunidades from "../pages/MisComunidades";
+import VistaInformacion from "../pages/VistaInformacion"
+import HacerPregunta from "../pages/HacerPregunta";
 
 function Rutas(){
     return(
         <Layout>
             <Routes>
-                <Route path="/Home" element={<Home/>}/>
-                <Route path="/Explorarcat" element={<ExplorarCategorias/>}/>
-                <Route path="/Usuarios" element={<Usuarios/>}/>
-                <Route path="/Explorarcom" element={<ExplorarComunidades/>}/>
-                <Route path="/Miscom" element={<MisComunidades/>}/>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/explorarcat" element={<ExplorarCategorias/>}/>
+                <Route path="/usuarios" element={<Usuarios/>}/>
+                <Route path="/explorarcom" element={<ExplorarComunidades/>}/>
+                <Route path="/miscom" element={<MisComunidades/>}/>
+                <Route path="/vista" element={<VistaInformacion/>}/>
+                <Route path="/pregunta" element={<HacerPregunta/>}/>
             </Routes>
         </Layout>
     )

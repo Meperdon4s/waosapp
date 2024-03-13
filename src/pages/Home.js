@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-import VistaInformacion from '../components/VistaInformacion';
+import FeedInformacion from '../components/FeedInformacion';
 
 export default function Home() {
   return (
     <div>
-      <VistaInformacion/>
+      <FeedInformacion/>
     </div>
   )
 }
